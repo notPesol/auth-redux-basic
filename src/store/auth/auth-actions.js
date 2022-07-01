@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_KEY = " AIzaSyA0ORa9Sk0hSt0NRN-oRhzIQTX0cbRgQW0 ";
+const API_KEY = " YOUR_API_KEY ";
 
 const signInEndPoint =
   "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" +
