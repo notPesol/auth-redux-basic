@@ -1,0 +1,41 @@
+.profile h2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #3F826D;
+  gap: 0.5rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+.form-control label {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  background-color: #FCA311;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 2rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
